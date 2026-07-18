@@ -734,3 +734,8 @@ ul { padding: 0; list-style: none; }
   .site-header,.space-canvas,.ambient,.page-grid,.hero-visual,.contact-orbit,.site-footer{display:none!important}
   body{background:#fff;color:#111;font-size:10pt}.shell,.section-wide{width:100%;border:0;box-shadow:none}.hero{display:block;min-height:0;padding:2rem 0}.section{padding:2rem 0}.section-wide{background:none}.section-heading h2,.contact-copy h2,.hero h1{color:#111}.hero h1 span,.section-heading h2 span,.contact-copy h2 span{color:#444;-webkit-text-fill-color:initial}.story-card,.principle-card,.capability-card,.role-fit,.experience-card,.project-card,.credential-card,.education-panel,.profile-panel,.service-item,.developing-panel{break-inside:avoid;border:1px solid #bbb;background:#fff;box-shadow:none;color:#111}p,.hero-intro,.section-heading>p{color:#333!important}.project-visual{display:none}.project-card,.project-featured{display:block;min-height:0}.project-body{min-height:0}.reveal-pending{opacity:1;translate:none}
 }
+@media (max-width: 43rem) {
+    .hero-visual > .orbit {
+      display: none;
+    }
+  }
